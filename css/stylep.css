@@ -1,0 +1,257 @@
+/*
+ * Quick mash-up of CSS for the TG quick start page.
+ */
+
+html, body {
+  color: black;
+  background-color: #ddd;
+  font: x-small "Lucida Grande", "Lucida Sans Unicode", geneva, verdana, 
+                 sans-serif;
+  margin: 0;
+  padding: 0;
+}
+td, th {padding:3px;border:none;}
+tr, th {text-align:left;background-color:#f0f0f0;color:#333;}
+tr.odd {background-color:#edf3fe;}
+tr.even{background-color:#fafaff;}
+td.grey {background-color:#f0f0f0; border inset 15pt}
+td.italic {
+	font-style:italic;
+}
+caption{
+	font-size: 127%;
+	font-weight: bold;
+	padding-top: 10px;
+}
+#header {
+  width: 1020px;
+  background: white URL('../images/WBW_logo.gif') no-repeat;
+  background-position:right top;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  margin: 0 auto 0 auto;
+  padding-top:21px;
+  height: 45px;
+  font-size:27px;
+  padding-bottom:0px;
+}
+#main_content {
+  color: black;
+  font-size: 127%;
+  background-color: white;
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  padding: 10px;
+}
+#footer {
+  border: 1px solid #aaa;
+  border-top: 0px none;
+  color: #999;
+  background-color: white;
+  padding: 10px;
+  font-size: 80%;
+  text-align: center;
+  width: 1000px;
+  margin: 0 auto 1em auto;
+}
+#sidebar {
+  border: 1px solid #aaa;
+  background-color: #eee;
+  margin: 0.5em;
+  padding: 1em;
+  float: right;
+  width: 200px;
+  font-size: 88%;
+}
+#sidebar h2 {
+  margin-top: 0;
+}
+#sidebar ul {
+  margin-left: 1.5em;
+  padding-left: 0;
+}
+h1,h2,h3,h4,h5,h6,#getting_started_steps {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", geneva, 
+                verdana, sans-serif;
+ /*"Century Schoolbook L", Georgia, serif;*/
+  font-weight: bold;
+}
+h2 {
+  font-size: 130%;
+}
+#getting_started_steps a {
+  text-decoration: none;
+}
+#getting_started_steps a:hover {
+  text-decoration: underline;
+}
+#getting_started_steps li {
+  font-size: 80%;
+  margin-bottom: 0.5em;
+}
+#getting_started_steps h2 {
+  font-size: 120%;
+}
+#getting_started_steps p {
+  font: 100% "Lucida Grande", "Lucida Sans Unicode", geneva, verdana, 
+              sans-serif;
+}
+.code {
+  font-family: monospace;
+}
+span.code {
+  font-weight: bold;
+  background: #eee;
+}
+#status_block {
+  margin: 0 auto 0.5em auto;
+  padding: 15px 10px 15px 55px;
+  background: #cec URL('../images/ok.png') left center no-repeat;
+  border: 1px solid #9c9;
+  width: 450px;
+  font-size: 120%;
+  font-weight: bolder;
+}
+.notice {
+  margin: 0.5em auto 0.5em auto;
+  padding: 15px 10px 15px 55px;
+  width: 450px;
+  background: #eef URL('../images/info.png') left center no-repeat;
+  border: 1px solid #cce;
+}
+.fielderror {
+    color: red;
+    font-weight: bold;
+}
+.red{
+	color: red;
+	text-decoration: none
+}
+.black{
+	color: black;
+	text-decoration: none
+}
+.score_entry{text-align: center;}
+results_entry.td, results_entry.th{padding:3px;}
+table.results{
+ background-color:#d0d0d0;
+ font: x-small "Lucida Grande", "Arial", sans-serif;
+}
+table.results tr.odd{
+	background-color:#ffffff;
+}
+table.results tr.even{
+	background-color:#f4f4f4;
+}
+table.results tr.reddy{
+	background-color:#ffdddd;
+}
+table.results tr.green{
+	background-color:#ddffdd;
+}
+table.results tr.blue{
+	background-color:#e0f8ff;
+}
+table.results tr.none{
+	background-color:#ffffff;
+}
+table.results tr.totals{
+	background-color:#efefef;
+}
+table.results th {
+	text-align: center;
+	font: x-small "Lucida Grande", "Arial", sans-serif;
+	font-weight: bolder;
+}
+table.results td {
+	text-align: center;
+}
+table.results td.left {
+	text-align: left;
+}
+table.results td.right {
+	text-align: right;
+}
+a.link, a, a.active {
+  color: #369;
+  text-decoration: none;
+}
+#container{
+	width:100%;
+	margin:2px auto;
+	background-color: #fff;
+	color: #333;
+	border: 1px solid gray;
+	line-height: 130%;
+}
+#top{
+	padding:0.5em;
+	background-color:#ddd;
+	border-bottom:1px solid gray;
+}
+#top h1{
+	padding:0;
+	margin: 0;
+}
+#leftnav{
+	float: left;
+	width: 110px;
+	margin: 0;
+	padding:5px;
+	font: x-small "Lucida Grande", "Lucida Sans Unicode", geneva, verdana, 
+	               sans-serif, Arial;
+	border-right:1px solid gray;
+}
+table.navtable{
+ background-color:#ffffff;
+ font: x-small "Lucida Grande", "Lucida Sans Unicode", geneva, verdana, 
+                sans-serif;
+}
+table.navtable tr {
+	background-color:#ffffff;
+}
+#content{
+	margin-left:120px;
+	border-left:1px solid gray;
+	padding: 1em;
+/*	overflow: auto;*/
+/*	height: 520px;*/
+	width: 834px;
+}
+#content h1{
+	padding:10px;
+	margin:0 10px 0 0;
+	line-height:130%;
+	text-align:center;
+}
+#content h2 {
+	margin: 10px 0 .5em 0;
+}
+#content p{
+	line-height:140%;
+}
+#content li {
+	padding:4px;
+	line-height:140%;
+}
+#newfooter{
+	clear: both;
+	margin: 0;
+	padding: 0.5em;
+	color: #333;
+	background-color: #ddd;
+	border-top: 1px solid gray;
+}
+#newfooter p{
+	padding:0;
+	margin: 0;
+}
+/*#leftnav p{
+	margin: 0 0 1em 0;
+}*/
+/*#leftnav table{
+	width:90%;
+}
+*/
